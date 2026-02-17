@@ -35,7 +35,7 @@ function Login({ setIsLoggedIn }) {
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="Enter your email"
+              placeholder="admin@coffee.com"
               required
             />
           </div>
@@ -46,7 +46,7 @@ function Login({ setIsLoggedIn }) {
               id="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="Enter your password"
+              placeholder="12345"
               required
             />
           </div>
